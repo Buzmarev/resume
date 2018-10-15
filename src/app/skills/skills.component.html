@@ -1,0 +1,6 @@
+<div class="row justify-content-around">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 skill-item my-2 text-center" *ngFor="let skill of getSkills()">
+        <img src="assets/images/{{skill['img']}}" class="mh-100 mr-2">
+        <span class="font-weight-bold h5">{{skill['name']}}</span>
+    </div>
+</div>
